@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #1C1C1C;
+    padding: 110px 95px;
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    background: #F5F7FB;
+    width: 70vw;
+    min-width: 500px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.intro {
+    text-align: center;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+.intro h2{
+    color: #293264;
+    text-align: center;
+    font-family: Karla;
+    font-size: 31.25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+.intro p{
+    color: #293264;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.intro button {
+    border-radius: 15px;
+    background: #4D5B9E;
+    color: #F5F7FB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    padding: 16px 32px;
+    margin-top: 15px;
+}
+
+.quiz {
+    width: 100%;
+}
+
+.quiz h3{
+    color: #293264;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.quiz div {
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid #4D5B9E;
+    padding: 5px 15px;
+    margin-right: 13px;
+    margin-bottom: 8px;
+}
+
+button {
+    border-radius: 15px;
+    background: #4D5B9E;
+    color: #F5F7FB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    padding: 10px 24px;
+    margin-top: 15px;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.results p{
+    color: #293264;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 1.85em;
+}
+
+
+
+.top-right-svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+.bottom-right-svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
