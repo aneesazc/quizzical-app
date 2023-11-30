@@ -47,7 +47,7 @@ export default function App(){
                 setOptionsArr(initialOptions)
                 setCorrectAnswers(answers)
             })
-    }, [])
+    }, [start])
     
     function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
