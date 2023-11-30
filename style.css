@@ -153,5 +153,10 @@ button {
         top: 0;
         right: 0;
     }
+    .bottom-right-svg {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
 
 }
